@@ -1,0 +1,210 @@
+/* .parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: hidden;
+  
+  font-family: 'Anek Malayalam', sans-serif;
+  background: url('./pages/assets/jpg2.jpg');
+  background-size: cover;
+   background-attachment: fixed;
+  
+} */
+*{
+  overflow:hidden;
+}
+.parent{
+  min-height: 100vh;
+  background-color: #0B141D !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  min-width: 100%;
+  
+  opacity: 0.8;
+ 
+ 
+  }
+  /* .App{
+    min-height: 89.5vh;
+    background-color: #0B141D !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+  } */
+
+.logout-div{
+  min-width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  top: 0;
+  background-color: #222;
+  opacity:0.9;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  
+}
+ button,a {
+  margin: 15px;
+}
+
+
+button {
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  color: #03e9f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+button:hover {
+  /* text:"Hello"; */
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+      0 0 25px #03e9f4,
+      0 0 50px #03e9f4,
+      0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+/* button:hover::after{
+  content: "CLICK ME ↓";
+} */
+
+footer{
+  text-align: center;
+  color: white;
+  align-self:stretch;
+}
+.logout-div{
+  background: linear-gradient(90deg, #3300ff, #e52e71);
+}
+.logout-div a {
+  text-decoration: none;
+  color: white;
+}
+#logo{
+  font-size: 20px;
+  color: #fff;
+}
+
+#logo:hover {
+  font-size: 20px;
+  color: #3B44F6;
+}
+
+.logout-div a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.App button{
+  margin: 15px;
+  margin-top: -300px;
+  font-weight: bold;
+}
+
+.App a{
+  text-decoration: none;
+}
+
+.App a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* ***************************************/
+
+.search_bar_box{
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+
+@-webkit-keyframes rotating
+
+/* Safari and Chrome */
+    {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    align-self: center;
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(90deg, #3300ff, #e52e71);
+    -webkit-animation: rotating 3s linear infinite;
+    -moz-animation: rotating 3s linear infinite;
+    -ms-animation: rotating 3s linear infinite;
+    -o-animation: rotating 3s linear infinite;
+    animation: rotating 3s linear infinite;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-top:-400px;
+    /* margin-left: 200px; */
+}
+
+.insideRotate{
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    background-color: #0B141D;
+}
