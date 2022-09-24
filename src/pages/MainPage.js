@@ -30,6 +30,15 @@ const MainPage = () => {
         <button type="button" class="btn btn-outline-primary">
           <a href="./Youtube">Watch</a>
         </button>
+        <button type="button" class="btn btn-outline-primary">
+          <a href="https://im-rahul-raj.github.io/chatbot/">Talk to a BOT</a>
+        </button>
+
+        <button type="button" class="btn btn-outline-primary">
+          <a href="https://chat-sh.herokuapp.com/">Chat in Private</a>
+        </button>
+
+        
 
         
       
